@@ -4,7 +4,7 @@
       <!-- 通过传入 `to` 属性指定链接. -->
       <!-- <router-link> 默认会被渲染成一个 `<a>` 标签 -->
       <router-view></router-view>
-    <Footer></Footer>
+    <!--<Footer></Footer>-->
   </div>
 </template>
 
@@ -27,5 +27,9 @@
   /*text-align: center;*/
   /*color: #2c3e50;*/
   /*margin-top: 60px;*/
+    /*height: 100%;*/
 }
+/*#app > div {*/
+    /*height: 100%;*/
+/*}*/
 </style>
